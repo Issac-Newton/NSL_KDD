@@ -1,0 +1,10 @@
+NSL-KDD_All中包含所有的数据，数据说明及各个文件说明见 https://www.unb.ca/cic/datasets/nsl.html
+
+训练集和测试集如名称所示
+
+训练集的数据量为
+Normal：3K
+Dos:1K
+Probe:1K
+
+测试集中包含攻击类型为R2L和U2R，其中U2R类型数据只有37条

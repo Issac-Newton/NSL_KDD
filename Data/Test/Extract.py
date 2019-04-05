@@ -20,7 +20,12 @@ def get_data_1K(rf,wf):
 		print(all_data[i],file=wf,end='')
 
 if __name__ == '__main__':
+	'''
 	wf = open('R2L_All.txt','w')
 	get_data_all(r2l,wf)
 	wf = open('U2R_All.txt','w')
 	get_data_all(u2r,wf)
+	'''
+	rf = open('R2L_All.txt','r')
+	wf = open('R2L_1K.txt','w')
+	get_data_1K(rf,wf)
